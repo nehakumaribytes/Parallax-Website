@@ -17,8 +17,45 @@ html,body{
 .pimg1{
     background-image: url(wpsk.jpg);
     min-height: 100%;
+   
+}
+.pimg2{
+    background-image: url(R.jpg);
+    min-height: 400px;
+   
+}
+.pimg3{
+    background-image: url(abcd.jpg);
+    min-height: 400px;
+   
+}
+
+
+
+
+.pimg1,
+.pimg2,
+.pimg3{
+
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+   text-transform: uppercase;
+}
+
+.textbg {
+    background-color: rgb(56, 53, 53);
+    color:#fff;
+    padding: 20px;
 }
