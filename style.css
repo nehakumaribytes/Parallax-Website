@@ -15,7 +15,7 @@ html,body{
     color: #666;
 }
 .pimg1{
-    background-image: url(wpsk.jpg);
+    background-image: url(abcd.jpg);
     min-height: 100%;
    
 }
@@ -25,7 +25,7 @@ html,body{
    
 }
 .pimg3{
-    background-image: url(abcd.jpg);
+    background-image: url(wpsk.jpg);
     min-height: 400px;
    
 }
@@ -58,4 +58,22 @@ html,body{
     background-color: rgb(56, 53, 53);
     color:#fff;
     padding: 20px;
+}
+.section {
+    padding: 50px 80px;
+   text-align: center;
+
+}
+.section h2{
+    padding: 20px;
+}
+.section-light{
+ 
+  background-color: #f4f4f4;
+  color: #666;
+  
+}
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
 }
